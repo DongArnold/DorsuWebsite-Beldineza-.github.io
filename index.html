@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en"  class="light" id="darkmode">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davao Oriental State University <img src="dorsu.jpg"></title> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css" 
+  integrity="sha512-wl80ucxCRpLkfaCnbM88y4AxnutbGk327762eM9E/rRTvY/ZGAHWMZrYUq66VQBYMIYDFpDdJAOGSLyIPHZ2IQ==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="dorsu.jpg" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+
+            let btn = document.querySelector('#btn');
+            let dark = document.querySelector('#darkmode');
+
+            btn.addEventListener('click', () => {
+
+                if (dark.classList.contains('light')) {
+                    dark.classList.remove('light');
+                    dark.classList.add('dark');
+                } else {
+                    dark.classList.remove('dark');
+                    dark.classList.add('light');
+                }
+
+            });
+
+        });
+    </script>
+    <style>
+        
+        .dropdown:hover .dropdown-content {
+            display: block!important;
+        }
+    
+    </style>
+    
+</head>
+<body class="dark:bg-slate-900">
+  <header class="bg-gray-200 dark:bg-slate-900 text-white font-sans">
+    <div class="p-2.5 md:full md:items-center md:justify-between flex m-full w-100% bg-blue-900 dark:bg-slate-900">
+      <span class="font-[Poppins[ cursor-pointer">
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Home</a>
+          
+          
+          
+          
+          
+          
+          
+          <div class="dropdown">
+              
+              
+              
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">About</a>
+              
+              
+              <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+                        <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">History</a></li>
+                        <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Vision, Mission, Goals, Values</a></li>
+                        <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"> <a href="#">Administration</a></li>
+                    <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Board of regents</a></li>
+            </ul>
+              
+              
+              
+              </div>
+          
+          
+          
+            <div class="dropdown">
+          
+          
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Academics</a>
+
+              <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+
+
+
+                   <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Academics Units</a></li>
+                   <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Extension Campus</a></li>
+                   <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Graduate School</a></li>
+                   <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">University Registrar</a></li>
+                   <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Pre-school</a></li>
+              </ul>
+        
+
+
+            </div> 
+
+
+            <div class="dropdown">
+
+
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Research</a>
+
+
+        <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Researches</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Extension Programs</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"> <a href="#">Davao Research Journal</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">IPTBM</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"> <a href="#">International Relations</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Linkages</a></li>
+     </ul>
+
+
+            </div>  
+
+
+
+            <div class="dropdown">
+
+
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Students</a>
+
+
+        <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Student Services</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">USC</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"> <a href="#">Student Publication</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">ULIRC</a></li>
+     </ul>
+
+        
+            </div>
+
+
+
+
+            <div class="dropdown">
+
+          
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Resource</a>
+
+
+
+        <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Alumni Tracer</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Grades Portal</a></li>
+     </ul>
+
+
+
+             </div> 
+
+
+
+             <div class="dropdown">
+
+
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Admissions</a>
+
+        <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Admission Requirements</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Sholarship (FASST)</a></li>
+     </ul>
+              </div>
+
+
+               <div class="dropdown"> 
+        <a class="inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:bg-purple-700 rounded text-base mt-4 md:mt-0">Grade Inquiry</a>
+
+        <ul class="hidden dropdown-content absolute z-[1] bg-gray-700 w-fit"> 
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Grade Inquiry 2</a></li>
+          <li class="p-2 hover:bg-gray-600 block hover:text-yellow-300"><a href="#">Grade Inquiry 3</a></li>
+     </ul>
+
+
+
+          </div>
+
+
+  
+
+      </nav>
+      </span>
+      <body>
+
+        <button class="p-5 rounded bg-white dark:bg-slate-900 dark:text-white text-black" id="btn">Darkmode</button>
+        <p class="bg-gray-200 dark:bg-slate-900 dark:text-white">
+    
+    
+    </body>
+    </div>
+          <img class="bg-cover bg-center h-full w-full" src="background.jpg">
+  </header>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <img class="m-auto" src="dorsu.jpg">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">DAVAO ORIENTAL STATE UNIVERSITY</h1>
+        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">GUANG-GUANG, DAHICAN, CITY OF MATI, 8200 DAVAO ORIENTAL, PHILIPPINES</h2>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <div class="flex items-center mb-3">
+              <h2 class="text-gray-900 text-lg title-font font-medium">DOrSU Management meets for QMS Review</h2>
+            </div>
+            <div class="flex-grow">
+              <p class="leading-relaxed text-base">The top management of Davao Oriental State University met today, September 19, 2022, at the DOrSU Boardroom, for the first Management Review to consider possible improvements, effectiveness, adequacy of the current Quality Management System...</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <div class="flex items-center mb-3">
+              <h2 class="text-gray-900 text-lg title-font font-medium">DOrSU employees trained to respond to emergencies</h2>
+            </div>
+            <div class="flex-grow">
+              <p class="leading-relaxed text-base">Selected staff and faculty of Davao Oriental State University(DOrSU) received training from the City Disaster Risk Reduction and Management Office (CDRRMO), City of Mati, to prepare them for emergencies that might arise at work,...</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <div class="flex items-center mb-3">
+              <h2 class="text-gray-900 text-lg title-font font-medium">US Pediatricians, DOrSU work toward reducing maternal, newborn mortality</h2>
+            </div>
+            <div class="flex-grow">
+              <p class="leading-relaxed text-base">Pediatricians from Johns Hopkins University and the Institute of Nursing and Allied Health Sciences (INAHS) conducted a two-day training from September 13 to 14, 2022, at the university library for midwives, nurses, and nursing...</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <div class="flex items-center mb-3">
+              <h2 class="text-gray-900 text-lg title-font font-medium">DOrSU, CCATI sign MOA for Tech-voc Training, Nat’l Certification Activities</h2>
+            </div>
+            <div class="flex-grow">
+              <p class="leading-relaxed text-base">DOrSU President Roy G. Ponce and Career Centre Academie and Technological Institute, Inc. (CCATI)President Ms. Mary Jane P. Trinidad signed a Memorandum of Agreement covering technical vocationaltraining and national certification activities for the Bachelor...</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <div class="flex items-center mb-3">
+              <h2 class="text-gray-900 text-lg title-font font-medium">French Scientist to engage as an Adjunct Professor at DOrSU</h2>
+            </div>
+            <div class="flex-grow">
+              <p class="leading-relaxed text-base">The University of Malaysia Sabah Associate Professor Dr. Christophe Wiart will work as an adjunct professor at Davao Oriental State University, as confirmed by DOrSU President Dr. Roy G Ponce. During their initial conversation...</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+            <div class="flex items-center mb-3">
+              <h2 class="text-gray-900 text-lg title-font font-medium">LGU-Baganga, DOrSU unveil building plan; sign MOA on 2M grant for Baganga Campus Operations</h2>
+            </div>
+            <div class="flex-grow">
+              <p class="leading-relaxed text-base">LGU-Baganga Mayor Ronald V. Lara and Davao Oriental State University President Dr. Roy G. Ponce unveiled the academic building plan for DOrSU-Baganga Campus and signed a Memorandum of Agreement on financial grant of two...</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-gray-600">
+    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-70 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        </a> 
+        <img src="DORSU1.png">
+      </div>
+      </div>
+    
+    <div class="bg-gray-100">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-500 text-sm text-center sm:text-left">Davao Oriental State University © 2022.
+          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">All Rights Reserved.</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</p>
+</body>
+</html> 
